@@ -1,0 +1,8 @@
+@font-face {
+    font-family: play-regular; /* Гарнитура шрифта */
+    src: url(../fonts/PlayfairDisplay-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: ubuntul; /* Гарнитура шрифта */
+    src: url(../fonts/UbuntuLight.ttf); /* Путь к файлу со шрифтом */
+}

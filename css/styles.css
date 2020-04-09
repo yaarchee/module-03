@@ -1,0 +1,117 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    border-style: none;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+}
+
+.container{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main-head{
+    padding-top: 74px;
+    padding-bottom: 100px;
+}
+.menu{
+    max-width: 572px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.menu-item{
+    display: inline-block;
+    color: #626262;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.menu-item a{
+    display: block;
+    transition: 0.3s;
+
+}
+.menu-item a:hover,
+.menu-item a:focus{
+    display: block;
+    color: #25b4f5;
+}
+
+.menu-item:not(:nth-child(4)){
+    margin-right: 98px;
+}
+.main-content{
+    font-size: 0;
+}
+
+.content-element{
+    display: inline-block;
+    max-width: 420px;
+    width: 100%;
+}
+
+.content-element:not(:nth-child(even)){
+    margin-right: 56px;
+}
+.content-element:not(:nth-last-child(-n+2)){
+    margin-bottom: 137px;
+}
+.content-element-name{
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 30px 0 0 0;
+}
+.content-element-title{
+    color: #626262;
+    font-size: 30px;
+
+    margin: 18px 0 0 0;
+}
+
+.content-element-desc {
+    color: #626262;
+    font-size: 14px;
+    margin: 33px 0 0 0;
+    line-height: 1.6;
+}
+.main-download {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 67px;
+}
+.more-load {
+    color: #626262;
+    font-size: 20px;
+    border: solid 1px #626262;
+    padding: 17px 40px 18px 32px;
+    background-color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.more-load:hover, .more-load:focus{
+    background-color: #626262;
+    color: white;
+}
+
