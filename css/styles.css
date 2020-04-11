@@ -69,10 +69,10 @@ body{
 }
 
 .content-element:not(:nth-child(even)){
-    margin-right: 56px;
+    margin-right: 60px;
 }
 .content-element:not(:nth-last-child(-n+2)){
-    margin-bottom: 137px;
+    margin-bottom: 136px;
 }
 .content-element-name{
     color: #b4ad9e;
